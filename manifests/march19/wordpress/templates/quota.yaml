@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  creationTimestamp: null
+  name: wordpress
+  selfLink: /api/v1/namespaces/oreilly/resourcequotas/wordpress
+spec:
+  hard:
+    pods: "8"
+status: {}
